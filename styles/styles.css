@@ -1,0 +1,649 @@
+/* GENERAL STYLING STARTS HERE (applied on all pages)*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    /* color: #ffffff; */
+}
+
+.clearboth {
+    clear: both;
+}
+
+/* Header Styling Starts */
+.main-header {
+    height: 50px;
+    background-color: #29648A;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+
+.header-date {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.header-date h4 {
+    font-size: 1.2em;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Navigation Styling Starts */
+.header-nav nav ul {
+    background-color: #3B8BEB;
+    list-style: none;
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+
+.header-nav nav ul a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    font-size: 100%;
+    color: #ffffff;
+}
+
+.current {
+    background-color: #29648A;
+}
+
+/* Navigation Styling Ends */
+
+/* Header Styling Ends */
+
+/* Footer Styling Starts Here */
+footer {
+    width: auto;
+    height: 25px;
+    background-color: #3B8BEB;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    float: right;
+}
+
+/* Footer Styling Ends Here */
+
+/* GENERAL STYLING ENDS HERE (applied on all pages)*/
+
+
+/* INDEX STYLING STARTS HERE */
+.index-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 520px !important;
+   }
+
+.index {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.team-h4 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.index-container {
+    width: 40%;
+    justify-items: center;
+    margin-top: 20px;
+}
+.king img {
+    height: 400px;
+    
+}
+
+.index-container h4 {
+    text-align: center;
+}
+
+.index-container p {
+    margin-top: 10px;
+}
+
+.index-container img {
+    width: 100%;
+    height: 300px;
+}
+
+.site-purpose {
+    margin-bottom: 10px;
+    /* background-color: #29648A; */
+}
+.site-purpose p{
+    padding: 5px;
+}
+
+.site-purpose h4 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+    background-color: #29648A;
+    color: #ffffff;
+}
+.team-h4{
+    background-color: #29648A;
+    color:#ffffff;
+}
+.h1index{
+    background-color: #29648A;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+/* INDEX STYLING ENDS HERE */
+
+
+
+/* REVIEWS STYLING STARTS HERE */
+.review-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 320px;
+
+}
+
+.reviewh1 {
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    background-color: #29648A;
+    color: #ffffff;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.reviews {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.review-container {
+    flex-basis: 80%;
+    /* padding: 5px; */
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.review-container p{
+    padding: 5px;
+}
+.review-container img {
+    width: 100%;
+    height: 250px;
+}
+.review-container h1{
+    text-align: center;
+    background-color: #29648A;
+    color: #ffffff;
+}
+.reviews-reference {
+    flex-basis: 80%;
+    /* padding: 5px; */
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.reviews-reference p{
+    padding: 5px;
+    font-style: italic;
+}
+.reviews-reference h1{
+    text-align: center;
+    background-color: #29648A;
+    color: #ffffff;
+}
+/* REVIEWS STYLES ENDS */
+
+
+/* GLOSSARY STYLING STARTS HERE */
+.glossary-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .glossary-container {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+  .line_height{
+      line-height: 27px;
+  }
+  .glossary-content img {
+    width: 100%;
+  }
+  .header-glossary {
+    margin-bottom: 10px;
+    background-color: #29648a;
+    color: #ffffff;
+    padding-left: 5px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+  .glossary-sections h1 {
+    background-color: #29648a;
+    color: white;
+    padding-left: 5px;
+  }
+  
+
+/* GLOSSARY STYLING ENDS HERE */
+
+
+/* TUTORIALS STYLING STARTS HERE */
+.tutorials-wrapper {
+    width: 100%;
+  }
+  .tutorials-container {
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: #29648A; */
+  }
+  .tutorials-wrapper h1 {
+    background-color: #29648a;
+    color: #ffffff;
+    border-bottom: 2px solid;
+    font-size: 1.4em;
+    padding-left: 10px;
+  }
+  .tutorials-content {
+    flex-basis: 100%;
+  }
+  .tutorials-sections {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .tutorials-sections h1{
+      text-align: center;
+  }
+  
+  .tutorials-content {
+    padding-right: 5px;
+  }
+/* TUTORIALS STYLING ENDS HERE */
+
+/* JOBS STYLING STARTS HERE */
+.jobs-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .jobs-container {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .jobs-content p {
+    text-align: justify;
+    padding-left: 10px;
+  }
+  .jobs-content {
+    flex-basis: 100%;
+  }
+  .jobs-content img {
+    width: 100%;
+  }
+  */ .jobs-sections {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .header-jobs {
+    margin-bottom: 10px;
+    background-color: #29648a;
+    color: #ffffff;
+    padding-left: 5px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .jobs-sections h1 {
+    background-color: #29648a;
+    color: white;
+    padding-left: 5px;
+  }
+
+/* JOBS STYLING ENDS HERE */
+
+/*MEDIA STYLE SHEET STARTS HERE FOR ALL MOBILE SCREEN  */
+@media all and (max-width: 600px) { 
+/* GENERAL MEDIA STYLES Starts Here */
+.main-header h1 {
+    font-size: 1.5em;
+}
+.nav-ul {
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+    padding: 0;
+}
+.nav-ul a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgb( 255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba( 0,0, 0,0.1);
+}
+.banner-img img {
+    height: 320px !important ; 
+}
+footer{
+    padding: 5px;
+    height: 30px;
+}
+/* General Media Styles Ends Here */
+/* Index Page */
+.index-wrapper{
+    width: 100%;}
+
+.h1index{
+    text-align: center;
+}
+.index{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    .index-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .index img{
+        width: 100%;
+    }
+/* Index Styling Ends Here */
+
+/* Reviews Styling Starts Here */
+.review-wrapper{
+    width: 100%;
+}
+.reviewh1{
+    text-align: center;
+}
+/* Reviews Styling Ends Here */
+
+/* Glossary Styling Starts Here */
+
+.glossary-wrapper {
+    width: 100%;
+  }
+.glossary-container {
+    flex-direction: column-reverse;
+    padding: 2px;
+  }
+/* Glossary Styling Ends Here */
+/* Jobs Styling Starts Here */
+.jobs-wrapper {
+    width: 100%;
+  }
+.jobs-container {
+    flex-direction: column;
+    /* flex-basis: 100%; */
+    /* margin: 0 auto; */
+  }
+.jobs-sections h1 {
+    text-align: center;}
+/* Jobs Styling Ends Here */
+/* Tutorials Styling Starts Here */
+.tutorials-wrapper {
+    width: 100%;
+  }
+
+  .tutorials-container {
+    flex-direction: column;
+  }
+
+  .tutorials-content iframe {
+    width: 100%;
+  }
+  .tutorials-sections h1{
+    text-align: center;
+}
+/* Tutorials Styling Ends Here */
+}
+
+
+
+/* NORMAL IPAD MEDIA QUERY SCREEN STYLING STARTS HERE */
+@media all and (max-width: 768px) 
+/* General Media Stylesheet Starts Here */
+
+{ 
+    .main-header h1 {
+    font-size: 1.5em;
+}
+.nav-ul {
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+    padding: 0;
+}
+.nav-ul a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgb( 255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba( 0,0, 0,0.1);
+}
+.banner-img img {
+    height: 320px !important ; 
+}
+footer{
+    padding: 5px;
+    height: 30px;
+}
+/* General Media Styles Ends Here */
+/* Index Page */
+.index-wrapper{
+    width: 100%;}
+
+.h1index{
+    text-align: center;
+}
+.index{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+    .index-container{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px !important;
+    }
+    .index img{
+        height: 500px;
+        width: 100%;
+    }
+/* Index Styling Ends Here */
+
+/* Reviews Styling Starts Here */
+.review-wrapper{
+    width: 100%;
+}
+.reviewh1{
+    text-align: center;
+}
+/* Reviews Styling Ends Here */
+
+/* Glossary Styling Starts Here */
+.glossary-wrapper {
+    width: 100%;
+  }
+.glossary-container {
+    flex-direction: column-reverse;
+    padding: 2px;
+  }
+/* Glossary Styling Ends Here */
+
+/* Jobs Styling Starts Here */
+.jobs-wrapper {
+    width: 100%;
+  }
+.jobs-container {
+    flex-direction: column;
+    /* flex-basis: 100%; */
+    /* margin: 0 auto; */
+  }
+.jobs-sections h1 {
+    text-align: center;}
+/* Jobs Styling Ends Here */
+
+/* Tutorials Styling Starts Here */
+.tutorials-wrapper {
+    width: 100%;
+  }
+
+  .tutorials-container {
+    flex-direction: column;
+  }
+  .tutorials-sections h1{
+    text-align: center;
+}
+
+  .tutorials-content iframe {
+    width: 100%;
+  }
+/* Tutorials Styling Ends Here */
+}
+/* NORMAL IPAD MEDIA QUERY SCREEN STYLING ENDS HERE */
+
+
+
+/* IPAD PRO MEDIA QUERY STARTS HERE */
+@media all and (max-width: 1024px)  {
+    .main-header h1 {
+        font-size: 1.5em;
+    }
+   
+    .banner-img img {
+        height: 320px !important ; 
+    }
+    footer{
+        padding: 5px;
+        height: 30px;
+    }
+    /* General Media Styles Ends Here */
+    /* Index Page */
+    .index-wrapper{
+        width: 100%;}
+    
+    .h1index{
+        text-align: center;
+    }
+    .index{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+        .index-container{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .index img{
+            width: 100%;
+            height: 500px;
+        }
+    /* Index Styling Ends Here */
+    
+    /* Reviews Styling Starts Here */
+    .review-wrapper{
+        width: 100%;
+    }
+    .reviewh1{
+        text-align: center;
+    }
+    /* Reviews Styling Ends Here */
+    
+    /* Glossary Styling Starts Here */
+    
+    .glossary-wrapper {
+        width: 100%;
+      }
+    .glossary-container {
+        flex-direction: column-reverse;
+        padding: 2px;
+      }
+    /* Glossary Styling Ends Here */
+    /* Jobs Styling Starts Here */
+    .jobs-wrapper {
+        width: 100%;
+      }
+    .jobs-container {
+        flex-direction: column;
+        /* flex-basis: 100%; */
+        /* margin: 0 auto; */
+      }
+    .jobs-sections h1 {
+        text-align: center;}
+    /* Jobs Styling Ends Here */
+    /* Tutorials Styling Starts Here */
+    .tutorials-wrapper {
+        width: 100%;
+      }
+      .tutorials-sections h1{
+        text-align: center;
+    }
+    
+      .tutorials-container {
+        flex-direction: column;
+      }
+    
+      .tutorials-content iframe {
+        width: 100%;
+      }
+
+      .tutorials-sections{
+          border:2px solid red;
+          margin-top: 50px;
+      }
+    /* Tutorials Styling Ends Here */
+    }
+    /* IPAD PRO MEDIA QUERY ENDS HERE */
+    
+
+
+
+
+
+
+
+
